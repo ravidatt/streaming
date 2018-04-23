@@ -1,8 +1,8 @@
-# streaming
+# streaming \n
 
-# run this on spark-shell
+# run this on spark-shell \n
 
-import org.apache.spark.streaming.{Duration, Seconds, StreamingContext}
+import org.apache.spark.streaming.{Duration, Seconds, StreamingContext} \n
 import org.apache.spark.storage._
 val ssc=new StreamingContext(sc,Seconds(10))
 val lines=ssc.socketTextStream("<<SERVER_NAME>>",3333,StorageLevel.MEMORY_AND_DISK_SER)
