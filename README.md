@@ -1,4 +1,4 @@
-# streaming 
+# Spark Streaming Word Count 
 
 # run this on spark-shell 
 
